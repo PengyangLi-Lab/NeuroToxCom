@@ -1,20 +1,20 @@
 NeuroToxCom Seeker V1.0 & Associated Visualization Scripts
 NeuroToxCom Seeker V1.0 is a professional software tool for neurotoxic compound data analysis, integrating toxicology databases, mass spectrum matching, and analytical tools.
- Key Features
+Key Features
 - **LC-MS Mode**: For liquid chromatography-mass spectrometry data analysis
 - **GC-MS Mode**: For gas chromatography-mass spectrometry data analysis
- Basic Workflow
+Basic Workflow
 1. Select analysis method (LC-MS or GC-MS)
 2. Select experimental data file (.mzML format)
 3. Select spectral library file (.msp format)
 4. Configure analysis parameters
 5. Click "Start Analysis" to run
 6. Results are automatically saved to the original file folder
- Batch Processing
+Batch Processing
 - Supports processing entire folders
 - Each file generates an independent result file
 - Naming format: [original_filename]_[method]_results.xlsx
- Software Directory Structure
+Software Directory Structure
 Software/
 ├── data/                            Data directory (required)
 │   ├── all.xlsx                     Main database
